@@ -45,7 +45,7 @@ X = 0101 1000
 
 
 ### Test Files:
-There are 
+There are multiple textfiles that are used for testing: _i1.txt_, _i2.txt_, _i3.txt_, _i4.txt_, _i5.txt_, _in10A.txt_, _in17A.txt_, _in18A.txt_, _in19A.txt_, _inRF1.txt_, _inRF2.txt_, _inWC1.txt_, and _inWC2.txt_
 
 ### Terminal Commands:
 ```
@@ -55,3 +55,4 @@ gcc -o pa02 pa02.c
 *NOTE: To run the program, the last argument can either be 8, 16, or 32. These are the options for which bit checksum to use for a specific textfile.
 
 ### Output:
+The results will be printed on the terminal screen as well as written to a textfile called _"output.txt"_. 
