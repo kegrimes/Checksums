@@ -13,9 +13,9 @@ Adding binary numbers together follows a few rules...
 1. 0 + 0 = 0
 2. 0 + 1 = 1 (vise versa)
 3. 1 + 1 = 0, but you carry a 1 to the next group. If there is an odd number of 1's in that adding group, then you continue to carry the 1
-4. Start from right side  
+4. Start from right side
 
-![image](https://github.com/kegrimes/System-Software/assets/117098682/bb3ea86a-1416-4169-a7ec-6f44111a0ba3)
+![image](https://github.com/kegrimes/Checksums/assets/117098682/a8f7f4b7-5df9-4efa-b940-84ef35991ec7)
 
 ### Examples of a Checksum:
 Using _i2.txt_ input file, below will show how each checksum will work...  
