@@ -13,13 +13,9 @@ Adding binary numbers together follows a few rules...
 1. 0 + 0 = 0
 2. 0 + 1 = 1 (vise versa)
 3. 1 + 1 = 0, but you carry a 1 to the next group. If there is an odd number of 1's in that adding group, then you continue to carry the 1
-4. Start from right side
+4. Start from right side  
 
-11   
-0110 0001  
-0110 0010  
-=========  
-1100 0011 --> _C3_  
+![image](https://github.com/kegrimes/System-Software/assets/117098682/bb3ea86a-1416-4169-a7ec-6f44111a0ba3)
 
 ### Examples of a Checksum:
 Using _i2.txt_ input file, below will show how each checksum will work...  
@@ -32,16 +28,9 @@ a = 0110 0001
 a = 0110 0001
 0A = 0000 1010 (newline character)
 
-2. Add all binary numbers together, starting with the first 2 characters.  
-11     1  
-0110 0001  
-0110 0001  
-=========  
-      10  
-1100 0010  
-0000 1010  
-=========  
-1100 1100 --> `cc` 
+2. Add all binary numbers together, starting with the first 2 characters.
+
+![image](https://github.com/kegrimes/System-Software/assets/117098682/23828bfb-efd5-47f4-962f-f93160ac9d08)
 
 **16 bit checksum:**
 Use the same binary representation of the characters!  
@@ -49,11 +38,8 @@ Use the same binary representation of the characters!
 2. Set up the binary addition with 16 bits...
 *NOTE: Use `X` as a pad if there is not enough input characters to do a 16 bit addition
 X = 0101 1000  
-          1  
-0110 0001 0110 0001  
-0000 1010 0101 1000  
--------------------  
-0110 1011 1011 1001 --> `6bb9`  
+
+![image](https://github.com/kegrimes/System-Software/assets/117098682/19f910cb-4dae-445b-b4a9-c2b6811cefec)
 
 32 bit is very similar to 16 bit checksum, just use padding as needed.  
 
