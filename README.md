@@ -18,7 +18,7 @@ Adding binary numbers together follows a few rules...
 11   
 0110 0001  
 0110 0010  
-========= 
+=========  
 1100 0011 --> _C3_  
 
 ### Examples of a Checksum:
@@ -33,14 +33,14 @@ a = 0110 0001
 0A = 0000 1010 (newline character)
 
 2. Add all binary numbers together, starting with the first 2 characters.  
-11     1
-0110 0001
-0110 0001
-=========
-      10
-1100 0010
-0000 1010 
-=========
+11     1  
+0110 0001  
+0110 0001  
+=========  
+      10  
+1100 0010  
+0000 1010  
+=========  
 1100 1100 --> `cc` 
 
 **16 bit checksum:**
@@ -49,11 +49,11 @@ Use the same binary representation of the characters!
 2. Set up the binary addition with 16 bits...
 *NOTE: Use `X` as a pad if there is not enough input characters to do a 16 bit addition
 X = 0101 1000  
-          1
-0110 0001 0110 0001
-0000 1010 0101 1000
--------------------
-0110 1011 1011 1001 --> `6bb9`
+          1  
+0110 0001 0110 0001  
+0000 1010 0101 1000  
+-------------------  
+0110 1011 1011 1001 --> `6bb9`  
 
 32 bit is very similar to 16 bit checksum, just use padding as needed.  
 
