@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1698982683 source:c:\users\kegri\onedrive\desktop\ucf\junior\cis3360\program2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1699034511 source:c:\users\kegri\onedrive\desktop\ucf\junior\cis3360\program2\pa02.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
