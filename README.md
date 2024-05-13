@@ -48,7 +48,7 @@ Use the same binary representation of the characters!
 
 2. Set up the binary addition with 16 bits...
 *NOTE: Use `X` as a pad if there is not enough input characters to do a 16 bit addition
-X = 0101 1000
+X = 0101 1000  
           1
 0110 0001 0110 0001
 0000 1010 0101 1000
