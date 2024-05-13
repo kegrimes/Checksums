@@ -18,7 +18,7 @@ Adding binary numbers together follows a few rules...
 11   
 0110 0001  
 0110 0010  
----------  
+========= 
 1100 0011 --> _C3_  
 
 ### Examples of a Checksum:
@@ -32,15 +32,15 @@ a = 0110 0001
 a = 0110 0001
 0A = 0000 1010 (newline character)
 
-2. Add all binary numbers together, starting with the first 2 characters.
+2. Add all binary numbers together, starting with the first 2 characters.  
 11     1
 0110 0001
 0110 0001
----------
+=========
       10
 1100 0010
 0000 1010 
----------
+=========
 1100 1100 --> `cc` 
 
 **16 bit checksum:**
